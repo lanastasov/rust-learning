@@ -17,7 +17,7 @@ fn main() {
 		if age<10 {
 			println!("Your age is less");
 		} else {
-			println!("Your Account is craeted");
+			println!("Your Account is created");
 			println!("Do you want to upload photo");
 			// ch is remembered and it is equal to ch==yy 
 			// that's why we need to clear it 
@@ -27,7 +27,7 @@ fn main() {
 
 			if ch=="y" {
 				if age<13 {
-					println!("You cannot upload photo");;
+					println!("You cannot upload photo");
 				} else {
 					println!("You can upload photo");
 				}
